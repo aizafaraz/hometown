@@ -1,0 +1,140 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #1d3557;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    padding: 10rem;
+    background-image: url(images/lahore-background.jpg);
+
+}
+
+.background1 {
+    background-color: #1d3557;
+    color: white;
+    padding: 5px;
+    border: #1d3557;
+    border-radius: 5px;
+}
+
+.background2 {
+    display: block;
+    background-color: #457b9d;
+    color: white;
+    padding: 10px;
+    border: #457b9d;
+    border-radius: 10px;
+}
+
+.activities {
+    background-color: #f1faee; /* Light background for the section */
+    padding: 20px;
+}
+
+.activities h3 {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.activities-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.activities-container div {
+    flex: 1; 
+    max-width: 30%; 
+    margin: 0 10px;
+    text-align: center; 
+}
+
+.activities-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bold {
+    font-weight: bold; 
+    display: block;
+    margin-top: 10px; 
+}
+
+.guide {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.guide {
+    display: flex;
+    justify-content: center; /* Center the guide card on the page */
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #a8dadc; /* Light aqua color similar to the reference */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    width: 80%; /* Responsive width, adjusts to screen size */
+    max-width: 600px; /* Limits the card size to avoid excessive stretching */
+    display: flex;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 10px; /* Rounded corners for the image */
+    width: 150px; /* Fixed size for the image */
+    margin-right: 20px; /* Space between image and text */
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 0;
+    color: #1d3557; /* Dark blue for the title */
+    font-weight: 600; /* Slightly thicker font for emphasis */
+}
+
+.card p {
+    margin: 10px 0;
+    font-style: italic; /* Italicize the guide's quote */
+    color: #1d3557;
+}
+
+.card h4 {
+    margin: 0;
+    color: #1d3557;
+    font-weight: 700; /* Bold the guide's name */
+}
+
+
